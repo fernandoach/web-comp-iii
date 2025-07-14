@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 30, 0.9), rgba(0, 0, 50, 0.9)),
+              url('fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.evento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.evento__contenido {
+  max-width: 600px;
+}
+
+.evento__titulo {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.evento__resaltado {
+  color: #00bfff;
+}
+
+.evento__linea {
+  border: none;
+  height: 2px;
+  background-color: #00ffff;
+  width: 90%;
+  margin: 20px 0;
+}
+
+.evento__fecha {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.evento__hora {
+  font-size: 18px;
+  color: #cccccc;
+}
+
